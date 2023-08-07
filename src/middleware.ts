@@ -4,8 +4,8 @@ import { authMiddleware } from "@clerk/nextjs";
 // Please edit this to allow other routes to be public as needed.
 // See https://clerk.com/docs/nextjs/middleware for more information about configuring your middleware
 export default authMiddleware({
-  ignoredRoutes: ["/((?!api|trpc))(_next|.+\..+)(.*)", "/"],
-  publicRoutes: ["/api/trpc/example.hello"]
+  ignoredRoutes: ["/((?!api|trpc))(_next|.+\..+)(.*)", "/", "/api/auth/_log", "/api/auth/error"],
+  publicRoutes: ["/api/trpc/example.hello"],
 });
 
 export const config = {
