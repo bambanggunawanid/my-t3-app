@@ -1,9 +1,10 @@
-import { type Session } from "next-auth";
 import { SessionProvider } from "next-auth/react";
+import { type Session } from "next-auth";
 import { type AppType } from "next/app";
+import { ClerkProvider } from "@clerk/nextjs";
+import { Analytics } from "@vercel/analytics/react";
 import { api } from "y/utils/api";
 import "y/styles/globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,
@@ -11,9 +12,8 @@ const MyApp: AppType<{ session: Session | null }> = ({
 }) => {
   return (
     <ClerkProvider {...pageProps}>
-      <SessionProvider session={session}>
-        <Component {...pageProps} />
-      </SessionProvider>
+      <Component {...pageProps} />
+      <Analytics />
     </ClerkProvider>
   );
 };
