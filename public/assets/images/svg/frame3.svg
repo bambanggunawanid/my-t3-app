@@ -1,0 +1,30 @@
+<svg width="132" height="22" viewBox="0 0 132 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_15_475)">
+<circle opacity="0.1" cx="10.6908" cy="11.1868" r="10.3456" fill="#43D9AD"/>
+<circle opacity="0.2" cx="10.6908" cy="11.1868" r="7.34558" fill="#43D9AD"/>
+<circle cx="10.6908" cy="11.1868" r="4" fill="#43D9AD"/>
+<circle opacity="0.1" cx="38.3832" cy="11.1868" r="10.3456" fill="#43D9AD"/>
+<circle opacity="0.2" cx="38.3832" cy="11.1868" r="7.34558" fill="#43D9AD"/>
+<circle cx="38.3832" cy="11.1868" r="4" fill="#43D9AD"/>
+<g opacity="0.3">
+<circle opacity="0.1" cx="66.0756" cy="11.1868" r="10.3456" fill="#43D9AD"/>
+<circle opacity="0.2" cx="66.0756" cy="11.1868" r="7.34558" fill="#43D9AD"/>
+<circle cx="66.0756" cy="11.1868" r="4" fill="#43D9AD"/>
+</g>
+<g opacity="0.3">
+<circle opacity="0.1" cx="93.7679" cy="11.1868" r="10.3456" fill="#43D9AD"/>
+<circle opacity="0.2" cx="93.7679" cy="11.1868" r="7.34558" fill="#43D9AD"/>
+<circle cx="93.7679" cy="11.1868" r="4" fill="#43D9AD"/>
+</g>
+<g opacity="0.3">
+<circle opacity="0.1" cx="121.46" cy="11.1868" r="10.3456" fill="#43D9AD"/>
+<circle opacity="0.2" cx="121.46" cy="11.1868" r="7.34558" fill="#43D9AD"/>
+<circle cx="121.46" cy="11.1868" r="4" fill="#43D9AD"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_15_475">
+<rect width="131.461" height="20.6912" fill="white" transform="translate(0.345215 0.841248)"/>
+</clipPath>
+</defs>
+</svg>
