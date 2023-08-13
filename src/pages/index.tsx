@@ -67,7 +67,7 @@ export default function Home() {
                 <span>
                   “
                   <span className="[text-decoration:underline]">
-                    https://github.com/example/url
+                    https://github.com/bambanggunawanid
                   </span>
                   ”
                 </span>
